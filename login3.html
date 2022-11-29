@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;600;700&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/db6765cd2e.js" crossorigin="anonymous"></script>
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="home.html"><img src="images/sdg_logo.png" class="banner-logo"></a>
+
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="home.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="efforts.html" class="nav-link">Efforts</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="login.html" class="login-button"><i class="fa-solid fa-user"></i>&nbsp; Login</button></a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <form id="form2" action="/">
+            <h1>Login</h1>
+            <div class="user-input2">
+                <label for="email2">Email</label>
+                <input id="email2" name="email2" type="text">
+                <div class="error2"></div>
+            </div>
+            <div class="user-input2">
+                <label for="password3">Password</label>
+                <input id="password3"name="password3" type="password">
+                <div class="error2"></div>
+            </div>
+            <button type="submit">SUBMIT</button>
+            <div class="form-text">
+                <a href="login.html">Don't have an account? Sign Up</a>
+            </div>
+        </form>
+    </div>
+
+
+
+    <script src="functions.js"></script>
+</body>
+</html>
